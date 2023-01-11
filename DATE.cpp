@@ -207,7 +207,6 @@ int tim_khoang_cach_so_voi_0_0_0(DATE date)
 }
 int tinh_khoang_cach_giua_2_ngay(DATE date1, DATE date2)
 {
-	int d1{}, d2{}; //d1,d2 la khoang cach cua date1, date2 so voi 0/0/0;
 	int khoang_cach = abs(tim_khoang_cach_so_voi_0_0_0(date1) - tim_khoang_cach_so_voi_0_0_0(date2));
 	return khoang_cach;
 
